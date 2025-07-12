@@ -76,5 +76,5 @@
        git push -u origin main
        ```
 
-   Congratulations, You now have a working NextJs APp, with shadcn UI and authentication system with Supabase!
+   Congratulations, You now have a working NextJs App, with shadcn UI and authentication system with Supabase!
    
