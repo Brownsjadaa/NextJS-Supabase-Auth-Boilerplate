@@ -3,6 +3,7 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
+import { toast } from "sonner";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -38,11 +39,14 @@ export default function ForgotPassForm() {
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsLoading(true);
+    setServerError("");
     const { error } = await resetPass(values);
-
+    setIsLoading(false);
+    
     if (error) {
       setServerError(error);
-      setIsLoading(false);
+    } else {
+      toast.success("Password reset email sent successfully");
     }
   }
 
