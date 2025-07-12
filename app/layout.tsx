@@ -20,11 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.className} flex flex-col justify-between min-h-screen`}
-      >
-        <Header />
-        <div className="m-6">{children}</div>
+      <body className={`${inter.className} flex flex-col min-h-screen`}>
+        <div className="flex-1">
+          <Header />
+          <div className="m-6">{children}</div>
+        </div>
         <Toaster position="top-center" richColors />
         <Footer />
       </body>

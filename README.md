@@ -64,3 +64,17 @@
    ```
 
    The starter kit should now be running on [localhost:3000](http://localhost:3000/).
+
+6. Push your new app to Github
+   ## First you need to create a new repository on Github
+       Then you copy the link and come and add this as your remote repository
+       ```bash
+       git remote add origin <your-repository-url>
+       ```
+       Then you can push your code to Github
+       ```bash
+       git push -u origin main
+       ```
+
+   Congratulations, You now have a working NextJs APp, with shadcn UI and authentication system with Supabase!
+   

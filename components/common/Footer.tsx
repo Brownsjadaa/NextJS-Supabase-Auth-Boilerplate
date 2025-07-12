@@ -6,10 +6,10 @@ export default function Footer() {
       <p>⚡Supabase Next JS Auth Boilerplate</p>
       <p>&#8226;</p>
       <Link
-        href="https://daveyreno.com"
+        href="https://abdullah-wpcoderrs.github.io/"
         className="font-medium underline hover:no-underline"
       >
-        DaveyReno.com
+        Abdullah of Wpcoderrs Agency
       </Link>
     </div>
   );
