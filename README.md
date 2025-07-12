@@ -46,7 +46,18 @@
 
    Both `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` can be found in [your Supabase project's API settings](https://app.supabase.com/project/_/settings/api)
 
-4. You can now run the Next.js local development server:
+4. ## Features
+   - Authentication flows (Sign up, Login, Forgot Password)
+   - Supabase integration
+   - Shadcn UI components
+   - Toast notifications
+
+   ## Setup
+      1. Clone this repo
+      2. Run `npm install`
+      3. Create `.env.local` with your Supabase credentials
+
+5. You can now run the Next.js local development server:
 
    ```bash
    npm run dev
